@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="9" name="utilities-api">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1438269854969</CreatedAt>
+    <CreatedBy>who are you</CreatedBy>
+    <Description>API Template : commit 01c2d3a on Mon Aug 17 06:27:32 2015 +0100</Description>
+    <DisplayName>utilities-api</DisplayName>
+    <LastModifiedAt>updated by script</LastModifiedAt>
+    <LastModifiedBy>updated by script</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints/>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

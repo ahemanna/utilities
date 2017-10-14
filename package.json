@@ -1,0 +1,12 @@
+{
+    "name": "utilities-api-v1",
+    "version": "0.0.1",
+    "description":"Defines Node modules required by this API",
+    "main":"app.js",
+    "dependencies": {
+        "express":"latest"
+    }//,
+//    "devDependencies": {
+//        "replace":"0.3.0"
+//    }
+}
