@@ -7,6 +7,15 @@
         </Request>
         <Response/>
     </PreFlow>
+    <Flows>
+        <Flow name="base64encode">
+            <Condition>(proxy.pathsuffix MatchesPath "/base64encode") and (request.verb = "POST")</Condition>
+
+        </Flow>
+        <Flow name="base64decode">
+            <Condition>(proxy.pathsuffix MatchesPath "/base64decode") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
     <PostFlow name="PostFlow">
         <Request/>
         <Response/>
@@ -18,7 +27,7 @@
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
-    <RouteRule name="default">
-        <TargetEndpoint>default</TargetEndpoint>
+    <RouteRule name="node">
+        <TargetEndpoint>node</TargetEndpoint>
     </RouteRule>
 </ProxyEndpoint>
