@@ -1,6 +1,6 @@
 # Utilities
 
-Utilities is an API proxy containing frequently used tools. Utilities currently supports below functionalities.,
+Utilities is an API proxy containing frequently used functions. Utilities currently supports below functionalities.,
 
 1. Base64 encoding
 2. Base64 decoding
