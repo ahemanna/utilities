@@ -66,13 +66,21 @@ U2FtcGxlZGF0YQ==
 ### SHA256 hasing
 
 ```
+POST /v1/utilities/sha256 HTTP/1.1
+Host: {org_name}-{environment}.apigee.net
+Content-Type: application/x-www-form-urlencoded
 
+Sampledata
 ```
 
 ### SHA256 hasing
 
 ```
+POST /v1/utilities/sha512 HTTP/1.1
+Host: {org_name}-{environment}.apigee.net
+Content-Type: application/x-www-form-urlencoded
 
+Sampledata
 ```
 
 ## Built With
