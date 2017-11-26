@@ -4,6 +4,7 @@
 var express = require("express");
 var app = express();
 var base64 = require("./routes/services/base64.js");
+var sha = require("./routes/services/sha.js");
 
 app.use(function(req, res, next) {
     var data = "";
@@ -23,7 +24,8 @@ app.use(function(req, res, next) {
 
 app.post("*/base64encode", base64.encode);
 app.post("*/base64decode", base64.decode);
-
+app.post("*/sha256", sha.sha256);
+app.post("*/sha512", sha.sha512);
 
 //disable the etag, x-powered-by response header added by default by express
 app.disable("etag");

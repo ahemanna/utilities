@@ -4,6 +4,8 @@ Utilities is an API proxy containing frequently used tools. Utilities currently 
 
 1. Base64 encoding
 2. Base64 decoding
+3. SHA256 hashing
+4. SHA512 hashing
 
 ## Getting Started
 
@@ -39,7 +41,7 @@ mvn clean install -P{environment} -Dusername={edge_email} -Dpassword={edge_passw
 
 ## Supported resources
 
-Utilities currently supports resources to base64 encode and decode.
+Utilities currently supports resources to base64 encode/decode and SHA256/SHA512 hashing.
 
 ### Base64 encode
 
@@ -60,6 +62,19 @@ Content-Type: application/x-www-form-urlencoded
 
 U2FtcGxlZGF0YQ==
 ```
+
+### SHA256 hasing
+
+```
+
+```
+
+### SHA256 hasing
+
+```
+
+```
+
 ## Built With
 
 * [npm 2.15.9](https://www.npmjs.com/) - To manage node modules

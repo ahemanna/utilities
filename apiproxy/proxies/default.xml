@@ -10,10 +10,15 @@
     <Flows>
         <Flow name="base64encode">
             <Condition>(proxy.pathsuffix MatchesPath "/base64encode") and (request.verb = "POST")</Condition>
-
         </Flow>
         <Flow name="base64decode">
             <Condition>(proxy.pathsuffix MatchesPath "/base64decode") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="sha256">
+            <Condition>(proxy.pathsuffix MatchesPath "/sha256") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="sha512">
+            <Condition>(proxy.pathsuffix MatchesPath "/sha512") and (request.verb = "POST")</Condition>
         </Flow>
     </Flows>
     <PostFlow name="PostFlow">

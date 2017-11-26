@@ -4,6 +4,7 @@
     "description":"Defines Node modules required by this API",
     "main":"app.js",
     "dependencies": {
-        "express":"latest"
+        "express":"latest",
+        "crypto":"latest"
     }
 }
